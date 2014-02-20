@@ -10,10 +10,10 @@ namespace MvcMusicStore.Controllers
     {
         //
         // GET: /Home/ 
-        
-        public string Index()
+
+        public ActionResult Index()
         {
-            return "Hello from Home";
+            return View();
         }
 
     }
